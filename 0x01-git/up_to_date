@@ -1,1 +1,5 @@
-echo '' > up_to_date
+$ git remote add README.md https://github.com/Ijema/alx-pre_course.git
+$ git pull README.md master
+$ git add .
+$ git commit -m 'How to be up to date in git'
+$ git push origin masters
